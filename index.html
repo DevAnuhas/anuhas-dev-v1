@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuhas | Frontend Developer</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+</head>
+<body>
+
+    <header id="main-nav-bar">
+        <nav class="container main-nav">
+            <div class="nav-logo gradient-text">Anuhas</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://github.com/devAnuhas" target="_blank"><i class='bx bxl-github bx-sm'></i></a>
+                <a href="https://www.linkedin.com/in/profile-anuhas" target="_blank"><i class='bx bxl-linkedin bx-sm' ></i></a>
+                <a href="https://instagram.com/im_anuhas" target="_blank"><i class='bx bxl-instagram bx-sm'></i></a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div id="off-canvas-section">
+        <span class="overlay" onclick="toggleMenu()"></span>    
+        <div class="off-canvas">
+            <div class="off-canvas-header">
+                <div class="close-icon" onclick="toggleMenu()">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://github.com/devAnuhas" target="_blank"><i class='bx bxl-github bx-sm'></i></a>
+                <a href="https://www.linkedin.com/in/profile-anuhas" target="_blank"><i class='bx bxl-linkedin bx-sm' ></i></a>
+                <a href="https://instagram.com/im_anuhas" target="_blank"><i class='bx bxl-instagram bx-sm'></i></a>
+            </div>
+        </div>
+    </div>
+
+    <section id="hero">
+        <div class="container hero-container">
+            <div class="cta-container">
+                <h3>Hi there! 👋</h3>
+                <h1 class="gradient-text">I’m Anuhas</h1>
+                <h2>Fullstack developer</h2>
+                <p>Turning lines of code into stunning visuals is my superpower. Ready to dive into the extraordinary?</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                    <a href="#projects" class="btn btn-secondary">Check Out My Work</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./assets/images/anuhas.png" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <div class="title-container">
+                <p>Get to know more</p>
+                <h2 class="title">About <span>Me</span></h2>
+            </div>
+            <div class="about-container">
+
+                <div class="section-1">
+                    <p class="about-text">Hello! I’m Anuhas, a frontend developer. Currently, I'm rocking my studies in Software Engineering at AIC Campus in Colombo, Sri Lanka. I have experience working with HTML, CSS, JavaScript, React, SQL, and Git, and I'm always looking to expand my skill set.<br><br>I have completed certifications in JavaScript and React development from Udemy and have worked on a number of projects.</p>
+                </div>
+                
+                <div class="section-2 box box-container-h">         
+                    <div class="box-item">
+                        <h3 class="box-title gradient-text">1+</h3>
+                        <p>Years of experience</p>
+                    </div>
+                    <div class="box-item">
+                        <h3 class="box-title gradient-text">10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="box-item">
+                        <h3 class="box-title gradient-text">1+</h3>
+                        <p>Global Customers</p>
+                    </div>
+                </div>
+                
+                <div class="section-3 box box-container-v">         
+                    <div class="box-item">
+                        <h3 class="box-title gradient-text">Education</h3>
+                        <h4 class="box-sub-title">ICBT Campus</h4>
+                        <p>BSc in Software Engineering</p>
+                        <p>(2025-2026)</p>
+                    </div>
+                    <div class="box-item">
+                        <h4 class="box-sub-title">Achievers International Campus</h4>
+                        <p>HND in Software Engineering</p>
+                        <p>(2023-2024)</p>
+                    </div>
+                </div>
+
+                <div class="section-4 box box-container-v">         
+                    <div class="box-item">
+                        <h3 class="box-title gradient-text">Certifications</h3>
+                        <h4 class="box-sub-title">AI-Driven Fullstack Developer</h4>
+                        <p>(STEMLink)</p>
+                    </div>
+                    <div class="box-item">
+                        <h4 class="box-sub-title">The Complete Web Development</h4>
+                        <p>By Dr. Angela Yu</p>
+                        <p>(Udemy)</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container skills-container">
+            <div class="title-container">
+                <p>Explore more about</p>
+                <h2 class="title">My <span>Superpowers</span></h2>
+            </div>
+            <div class="box-section"> 
+
+                <div class="box">
+                    <h3 class="box-title gradient-text">Skills</h3>
+                    <div class="article-content">
+                        <article>
+                            <i class='icon bx bxl-html5 bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">HTML5</h4>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-css3 bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">CSS3</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-javascript bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">Javascript</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-react bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">ReactJS</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-bootstrap bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">Bootstrap</h4>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-tailwind-css bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">TailwindCSS</h4>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3 class="box-title gradient-text">Uses</h3>
+                    <div class="article-content">
+                        <article>
+                            <i class='icon bx bxl-visual-studio bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">VS Code</h4>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-chrome bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">Google Chrome</h4>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-git bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">Git</h4>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-github bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">Github</h4>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-figma bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">Figma</h4>
+                            </div>
+                        </article>
+                        <article>
+                            <i class='icon bx bxl-spotify bx-md'></i>
+                            <div>
+                                <h4 class="box-sub-title">Spotify</h4>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="title-container">
+                <p>Check out my</p>
+                <h2 class="title">Recent <span>Projects</span></h2>
+            </div>
+            <div class="projects-section">
+
+                <div class="box project-content">
+                    <article>
+                        <img src="./assets/images/thumbnail-placeholder.png" alt="Project">
+                        <h3>Project 1</h3>
+                    </article>
+                    <div class="btn-group">
+                        <a href="https://github.com" class="btn btn-primary" target="_blank"><i class='icon bx bxl-github'></i>Github</a>
+                        <a href="#" class="btn btn-secondary" target="_blank"><i class='icon bx bx-link-external'></i>Live Demo</a>
+                    </div>
+                </div>
+                
+                <div class="box project-content">
+                    <article>
+                        <img src="./assets/images/thumbnail-placeholder.png" alt="Project">
+                        <h3>Project 2</h3>
+                    </article>
+                    <div class="btn-group">
+                        <a href="https://github.com" class="btn btn-primary" target="_blank"><i class='icon bx bxl-github'></i>Github</a>
+                        <a href="#" class="btn btn-secondary" target="_blank"><i class='icon bx bx-link-external'></i>Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="box project-content">
+                    <article>
+                        <img src="./assets/images/thumbnail-placeholder.png" alt="Project">
+                        <h3>Project 3</h3>
+                    </article>
+                    <div class="btn-group">
+                        <a href="https://github.com" class="btn btn-primary" target="_blank"><i class='icon bx bxl-github'></i>Github</a>
+                        <a href="#" class="btn btn-secondary" target="_blank"><i class='icon bx bx-link-external'></i>Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="box project-content">
+                    <article>
+                        <img src="./assets/images/thumbnail-placeholder.png" alt="Project">
+                        <h3>Project 4</h3>
+                    </article>
+                    <div class="btn-group">
+                        <a href="https://github.com" class="btn btn-primary" target="_blank"><i class='icon bx bxl-github'></i>Github</a>
+                        <a href="#" class="btn btn-secondary" target="_blank"><i class='icon bx bx-link-external'></i>Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="box project-content">
+                    <article>
+                        <img src="./assets/images/thumbnail-placeholder.png" alt="Project">
+                        <h3>Project 5</h3>
+                    </article>
+                    <div class="btn-group">
+                        <a href="https://github.com" class="btn btn-primary" target="_blank"><i class='icon bx bxl-github'></i>Github</a>
+                        <a href="#" class="btn btn-secondary" target="_blank"><i class='icon bx bx-link-external'></i>Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="box project-content">
+                    <article>
+                        <img src="./assets/images/thumbnail-placeholder.png" alt="Project">
+                        <h3>Project 6</h3>
+                    </article>
+                    <div class="btn-group">
+                        <a href="https://github.com" class="btn btn-primary" target="_blank"><i class='icon bx bxl-github'></i>Github</a>
+                        <a href="#" class="btn btn-secondary" target="_blank"><i class='icon bx bx-link-external'></i>Live Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="title-container">
+                <p>Get in Touch</p>
+                <h2 class="title">Contact <span>Me</span></h2>
+            </div>
+            <div class="contact-container box">
+                <div class="left-section">
+                    <div>
+                        <h3 class="title">Let’s discuss<br>on something <span class="gradient-text">cool</span> together</h3><br>
+                        <p>Have some big idea to develop and need help? Then reach out I'd love to hear about your project  and provide help.</p>
+                    </div>
+                    <div class="contact-box-container">
+                        <div class="box contact-box">
+                            <i class='icon bx bx-envelope bx-sm'></i>
+                            <h3>contact@anuhas.dev</h3>
+                        </div>
+                        <div class="box contact-box">
+                            <i class="icon bx bxl-whatsapp bx-sm"></i>
+                            <h3>(+94) 77 875 9467</h3>
+                        </div>
+                        <div class="box contact-box">
+                            <i class='icon bx bx-map bx-sm'></i>
+                            <h3>Colombo, Sri Lanka</h3>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/devAnuhas" target="_blank"><i class='bx bxl-github bx-sm'></i></a>
+                        <a href="https://www.linkedin.com/in/profile-anuhas" target="_blank"><i class='bx bxl-linkedin bx-sm' ></i></a>
+                        <a href="https://instagram.com/im_anuhas" target="_blank"><i class='bx bxl-instagram bx-sm'></i></a>
+                    </div>
+                </div>
+                <div class="right-section box">
+                    <form action="#" method="post" class="contact-form">
+                        <div class="input-fields">
+                            <input type="text" name="name" placeholder="Your name" id="inputName" maxlength="100" required>
+                            <input type="email" name="email" placeholder="Your email" id="inputEmail" maxlength="50" required>
+                            <textarea name="message" placeholder="Message" id="inputMessage" maxlength="1000" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn secondary"><i class='icon bx bx-send'></i>Send message</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <nav class="container footer-nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">
+            Copyright © <span id="year"></span> Anuhas
+        </p>
+    </footer>
+
+    <a href="#" id="backToTop">
+        <i class='bx bxs-chevron-up'></i>
+    </a>
+
+    <script src="./js/script.js"></script>
+        
+</body>
+</html>

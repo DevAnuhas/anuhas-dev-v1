@@ -1,0 +1,240 @@
+@media screen and (max-width: 992px) {
+    .cta-container h1 {
+        font-size: 4.3rem;
+        line-height: 4.5rem;
+        letter-spacing: 2px;
+        margin: -25px 0;
+    }
+    
+    .cta-container h2 {
+        font-size: 1.7rem;
+        letter-spacing: 4px;
+    }
+    
+    .cta-container h3 {
+        font-size: 1.7rem;
+        margin-bottom: 5px;
+    }
+
+    .hero-container .image-container {
+        height: 500px;
+    }
+    
+    .btn-primary, .btn-secondary {
+        font-size: 1rem;
+    }
+
+    .btn .icon {
+        font-size: 1.2rem;
+        vertical-align: top;
+    }
+
+    .box-section,
+    .about-container,
+    .projects-section {
+        gap: 1.5rem;
+    }
+
+    .box {
+        padding: 2rem;
+    }
+
+    .box-title {
+        font-size: 2.5rem;
+    }
+
+    .projects-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-container .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p, a, .box-sub-title {
+        font-size: 1.1rem;
+    }
+
+    .box-title {
+        font-size: 2.3rem;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        background-position-x: center;
+        background-position-y: bottom;
+    }
+
+    .cta-container {
+        padding: 20px 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .image-container {
+        height: 400px;
+    }
+
+    nav.main-nav ul, .main-nav .social-icons {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: flex;
+    }
+    
+    .projects-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    #skills .box-section,
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-container .left-section {
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .contact-container {
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cta-container h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        letter-spacing: 2px;
+        margin: -28px 0;
+    }
+    
+    .cta-container h2 {
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+    }
+    
+    .cta-container h3 {
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+
+    .hero-container .image-container {
+        height: 400px;
+    }
+
+    .title-container {
+        margin-bottom: 2rem;
+    }
+    
+    .title-container p {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+    
+    .title-container .title {
+        font-size: 2.5rem;
+    }
+
+    .project-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-container .left-section {
+        gap: 1rem;
+    }
+
+    .contact-container {
+        padding: 2rem;
+    }
+
+    .contact-container .title {
+        font-size: 2rem;
+    }
+
+    .box-container-h {
+        flex-direction: column;
+    }
+
+    .box-container-h .box-item:not(:first-child) {
+        padding-top: 1rem;
+    }
+
+    .box-container-h .box-item:not(:last-child) {
+        border-style: solid;
+        border-color: var(--box-border);
+        border-width: 0 0 1px 0;
+        padding-bottom: 1.5rem;
+    }
+
+    #footer {
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #backToTop {
+        visibility: hidden !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .article-content {
+        gap: 20px;
+    }
+
+    .contact-container {
+        padding: 1rem;
+    }
+
+    .contact-container .right-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .contact-box {
+        padding: 0.5rem 1rem;
+    }
+    
+    .article-content .icon {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .title-container p {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    
+    .title-container .title,
+    .box-title {
+        font-size: 2rem;
+    }
+    
+    .btn .icon {
+        font-size: 1rem;
+        vertical-align: top;
+    }
+
+    .article-content {
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+    }
+
+    .contact-container .right-section {
+        padding: 2rem 1rem;
+    }
+
+    .contact-box {
+        padding: 0.5rem 1rem;
+    }
+}
