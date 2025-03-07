@@ -28,3 +28,4 @@ This is the source code for Anuhas's personal portfolio website. The website sho
    ```sh
    git clone https://github.com/DevAnuhas/anuhas-dev-v1.git
    ```
+2. Open index.html in your web browser to view the website.
