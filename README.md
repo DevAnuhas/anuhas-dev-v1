@@ -2,7 +2,7 @@
 
 This is the source code for Anuhas's personal portfolio website. The website showcases Anuhas's skills, projects, and contact information. The website is built using HTML, CSS, and JavaScript and is a **static website**.
 
-**Website Link**
+**Website Link:**  
 [https://v1.anuhas.dev](https://v1.anuhas.dev)
 
 ## Technologies Used
